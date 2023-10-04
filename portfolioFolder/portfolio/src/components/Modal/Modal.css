@@ -1,0 +1,28 @@
+.z-index999{
+    z-index: 999;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-custom{
+    position: relative;
+    background: linear-gradient(270deg,#17c0e9,#c96ddd,#f45162);
+    border: none;
+    color: #000;
+    font-weight: 500;
+    margin-right: 30px;
+    transition: all .5s ease;
+    border-radius: 47px;
+    font-size: 13px;
+    height: 60px;
+    letter-spacing: 3px;
+    outline: none;
+    text-transform: uppercase;
+    width: 180px;
+}
+.btn-custom:hover{
+    background-color: #59c378;
+}
